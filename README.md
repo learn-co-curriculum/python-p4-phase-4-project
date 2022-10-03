@@ -28,9 +28,13 @@ For this project, you must:
   - At least one reciprocal many-to-many relationship.
   - Full CRUD actions for at least one resource.
   - Minimum of create and read actions for EACH resource.
+- Use forms and validation through Flask-WTF on all input.
+    - At least one data type validation.
+    - At least one string/number format validation.
 - Have at least three different client-side routes using React Router. Be sure
   to include a nav bar or other UI element that allows users to navigate
   between routes.
+- Connect the client and server using either `fetch()` or `socket.io`.
 
 **Note**: a user should only be able to edit and delete resources if they are
 logged in and the creator of that resource. For example, if we consider the
@@ -179,13 +183,13 @@ Follow the instructions in the template to deploy your app!
 
 ## Resources
 
+- [Deploy a Flask App - Render](https://render.com/docs/deploy-flask)
+- [Deploy a React App Static Site - Render](https://render.com/docs/deploy-create-react-app)
 - [ERD Visualizations: dbdiagram.io][dbdiagram.io]
 - [Excalidraw - basic hand-drawn wireframes](https://excalidraw.com/)
 - [Figma - professional design tool](https://www.figma.com/)
 - [Balsamiq - professional wireframe tool](https://balsamiq.com/)
 
-[Deploy a Flask App - Render](https://render.com/docs/deploy-flask)
-[Deploy a React App Static Site - Render](https://render.com/docs/deploy-create-react-app)
 [mvp]: https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp
 [dbdiagram.io]: https://dbdiagram.io/
 [thinking in react]: https://reactjs.org/docs/thinking-in-react.html
