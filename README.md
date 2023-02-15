@@ -28,13 +28,13 @@ For this project, you must:
   - At least one reciprocal many-to-many relationship.
   - Full CRUD actions for at least one resource.
   - Minimum of create and read actions for EACH resource.
-- Use forms and validation through Flask-WTF on all input.
+- Use forms and validation through Formik on all input.
     - At least one data type validation.
     - At least one string/number format validation.
 - Have at least three different client-side routes using React Router. Be sure
   to include a nav bar or other UI element that allows users to navigate
   between routes.
-- Connect the client and server using either `fetch()` or `socket.io`.
+- Connect the client and server using `fetch()`.
 
 **Note**: a user should only be able to edit and delete resources if they are
 logged in and the creator of that resource. For example, if we consider the
