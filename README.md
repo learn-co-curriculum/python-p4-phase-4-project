@@ -29,23 +29,19 @@ For this project, you must:
   - Full CRUD actions for at least one resource.
   - Minimum of create and read actions for EACH resource.
 - Use forms and validation through Formik on all input.
-    - At least one data type validation.
-    - At least one string/number format validation.
+  - At least one data type validation.
+  - At least one string/number format validation.
 - Have at least three different client-side routes using React Router. Be sure
-  to include a nav bar or other UI element that allows users to navigate
-  between routes.
+  to include a nav bar or other UI element that allows users to navigate between
+  routes.
 - Connect the client and server using `fetch()`.
-
-**Note**: a user should only be able to edit and delete resources if they are
-logged in and the creator of that resource. For example, if we consider the
-example described below with models of User, DogHouse, and Review, I would only
-be able to edit or delete the reviews that I created.
 
 ## Project Setup
 
 Once you've got a solid plan in place for your app and you're ready to start
 coding, begin your project with the format described in the "Full-Stack
-Development" module. Remember to separate client and server code.
+Development" module. Remember to separate client and server code. We have
+provided a template project that you may use as a starter if you so choose.
 
 ## Project Guidance
 
@@ -55,20 +51,17 @@ Development" module. Remember to separate client and server code.
 
 Start by deciding on a domain for your app (such as "AirBNB for dogs"). Then,
 decide what **user stories** your app will need. It is helpful to break up your
-user stories between what is required for the [**Minimum Viable Product** (MVP)][mvp]
-version of your app, and what you'd like to save for stretch features after
-you've met your MVP goals.
+user stories between what is required for the [**Minimum Viable Product**
+(MVP)][mvp] version of your app, and what you'd like to save for stretch
+features after you've met your MVP goals.
 
 For example:
 
 - MVP: As a user, I can:
-  - Sign up for an account,
-  - Log in to the site & remain logged in,
-  - Log out,
   - View a list of all available dog houses in my area and their respective
     reviews,
   - Create a review for one specific dog house,
-  - Modify or delete a review that I left,
+  - Modify or delete a review,
   - Create a new dog house listing.
 - Stretch: As a user, I can:
   - View dog houses on a map,
@@ -110,12 +103,12 @@ user stories work?
 
 #### Wireframes
 
-For your frontend, it's a good idea to follow the ideas from
-[Thinking in React][] as you're designing your React application. That means
-starting with a visual representation of what your application should look like,
-in the form of a wireframe. The wireframe should give you a basic visual
-representation of what each page of your application should look like, and it
-should capture all of your user stories.
+For your frontend, it's a good idea to follow the ideas from [Thinking in
+React][] as you're designing your React application. That means starting with a
+visual representation of what your application should look like, in the form of
+a wireframe. The wireframe should give you a basic visual representation of what
+each page of your application should look like, and it should capture all of
+your user stories.
 
 Here are some tools for wireframing (pen and paper is also a fine choice!):
 
@@ -157,8 +150,8 @@ desired features in columns and the different layers of the stack in rows:
 
 You may be tempted to order your project timeline row-by-row. Do not do this! If
 you try to build all your migrations, then all your models, then all your
-controllers, then all your fetch calls, then all your view logic you will have
-a bad time. Inevitably, your view logic ends up requiring changes to the
+controllers, then all your fetch calls, then all your view logic you will have a
+bad time. Inevitably, your view logic ends up requiring changes to the
 underlying layers, and you end up building models that you never use. If you
 instead build **each feature** (each **vertical slice**) in its entirety before
 moving on to the next feature, you'll minimize rewriting, and end up with
