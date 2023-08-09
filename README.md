@@ -138,15 +138,15 @@ review.
 You can visualize all the parts of an app you need to build as a grid, with the
 desired features in columns and the different layers of the stack in rows:
 
-|                    | Sign in flow | View dog houses | Leave a review |
-| ------------------ | ------------ | --------------- | -------------- |
-| Migrations         |              |                 |                |
-| Models             |              |                 |                |
-| Seed Data          |              |                 |                |
-| Controller actions |              |                 |                |
-| View Logic         |              |                 |                |
-| Data Fetching      |              |                 |                |
-| Styling            |              |                 |                |
+|                    | Create new listing | View dog houses | Leave a review |
+| ------------------ | ------------------ | --------------- | -------------- |
+| Migrations         |                    |                 |                |
+| Models             |                    |                 |                |
+| Seed Data          |                    |                 |                |
+| Controller actions |                    |                 |                |
+| View Logic         |                    |                 |                |
+| Data Fetching      |                    |                 |                |
+| Styling            |                    |                 |                |
 
 You may be tempted to order your project timeline row-by-row. Do not do this! If
 you try to build all your migrations, then all your models, then all your
