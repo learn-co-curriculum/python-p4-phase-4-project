@@ -26,7 +26,7 @@ For this project, you must:
 - Have **at least** three models on the backend, that include the following:
   - At least two one-to-many relationships.
   - At least one reciprocal many-to-many relationship.
-    - the association object/table must have a user submittable attribute, i.e.
+    - the association model/table must have a user submittable attribute, i.e.
       an attribute aside from the foreign keys.
   - Full CRUD actions for at least one resource.
   - Minimum of create and read actions for EACH resource.
